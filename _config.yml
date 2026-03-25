@@ -1,0 +1,41 @@
+# Jekyll config for GitHub Pages - AuditorSEC Initiative EU
+title: "AuditorSEC Initiative"
+description: "Europe's Web3 AI Security Core: Ukraine-based R&D hub for DeFi security, AI governance, IoT integrity, and digital trust infrastructure."
+url: "https://auditorsec-initiative.github.io"
+baseurl: "/auditorsec-initiative-eu"
+
+# Theme
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# SEO
+author: "AuditorSEC Initiative"
+logo: "/assets/logo.png"
+
+# Navigation links in header
+show_downloads: false
+
+# Social
+github_username: AuditorSEC-Initiative
+
+# Footer links
+extra_links:
+  - title: LLM-Bridge Repo
+    url: https://github.com/AuditorSEC-Initiative/auditorsec-llm-bridge
+  - title: Bachmach IoT Hub
+    url: https://github.com/AuditorSEC-Initiative/bachmach-pqc-iot-sentinel
+  - title: DAO Framework
+    url: https://github.com/AuditorSEC-Initiative/dabroiotexs-dao-decentralization
+  - title: Summaries & Fuel MVP
+    url: https://github.com/AuditorSEC-Initiative/auditorsec-summaries-fuel-mvp
+  - title: Telegram Bot
+    url: https://t.me/audityzerbot
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
